@@ -1,0 +1,42 @@
+body{
+    background-image: url("imgs/pozadina\ v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sbikidi{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 27px;
+    right: 165px;
+}
+
+.login .tekstt{
+    font-size: 25px;
+    position: absolute;
+    top: 3.5px;
+    right: 70px;
+    font-family: "Exo 2", sans-serif;
+    color: black;
+}
+
+.oblik{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
