@@ -1,0 +1,111 @@
+body {
+  background-color: #3c3c3c;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sbikidi {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 1.5%;
+  right: 1%;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 2.5%;
+  right: 10%;
+}
+
+.login .tekstt {
+  font-size: 25px;
+  position: absolute;
+  top: 0%;
+  right: 4.25%;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+}
+
+.oblik {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skibidi {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.kontenjer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.i1 {
+  margin-bottom: 10px;
+}
+
+.s {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 70px;
+  top: 1.5%;
+  left: 47%;
+}
+
+.navbar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 5%;
+}
+
+.navbar img {
+  left: 5px;
+}
+
+.banner {
+  background-image: url(imgs/2.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 80px;
+}
